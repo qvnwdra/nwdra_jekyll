@@ -10,13 +10,15 @@ menu:
   - name: Projects
     submenu:
       - name: Strata Council Registry
-        link: /projects/strata.html
+        link: /projects/strata
       - name: Crime Prevention
-        link: /projects/crime.html
+        link: /projects/crime
   - name: News
     link: /
   - name: About
     link: /about
+  - name: Contact
+    link: /contact
   - name: Follow us
     submenu:
       - name: Twitter
