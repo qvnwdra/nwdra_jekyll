@@ -17,7 +17,7 @@ title: NWDRA
 name: New Westminster Downtown Residents Association
 description: 
   NWDRA Homepage
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 github_username: qvdm
 
 # jekyll-paginate configuration
