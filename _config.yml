@@ -36,7 +36,7 @@ exclude:
 include: ["_pages"]
 permalink: /posts/:title/
 excerpt_separator: <!--more-->
-author: http://www.linkedin.com/in/ayb
+author: AYB Technologies
 
 host: 0.0.0.0
 

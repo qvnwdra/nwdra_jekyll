@@ -35,10 +35,6 @@
   <meta name="twitter:url" content="{{site.url}}{{page.url}}">
 
   <meta property="og:site_name" content="{{site.name}}" />
-<!--
-  <meta property="og:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpg" />
-  <meta name="twitter:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpg">
--->
   {% if page.id %} <!-- if it's an article -->
   <meta property="og:type" content="article" />
   <meta property="article:published_time" content="{{ page.published | date_to_xmlschema }}" />
