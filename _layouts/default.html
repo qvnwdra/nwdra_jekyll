@@ -21,14 +21,14 @@
 	</p>
 	{% endif %}
 	<hr>
-	<h1>Abstract</h1>
+	<p><b>Abstract</b></p>
 	{% endif %}
 
 	{{ content }}
 
 
 	{% if page.id %}
-	<p>Originally published {{ page.published | date: '%B %d, %Y' }}
+<!--	<p>Originally published {{ page.published | date: '%B %d, %Y' }} -->
     <br> Latest update {{ page.date | date: '%B %d, %Y' }}</p>
 
     <p><strong>Related posts :</strong></p>

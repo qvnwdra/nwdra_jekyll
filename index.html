@@ -6,6 +6,7 @@ comments: true
 ---
 
 <!-- Pagination links -->
+<!--
 <div >
 	{% if paginator.previous_page %}
 		<a href="{{ paginator.previous_page_path }}" >
@@ -23,8 +24,27 @@ comments: true
 		<span >Next</span>
 	{% endif %}
 </div>
+-->
+
+<div>
+  <h1>Do you live between Royal Avenue and the Fraser River?</h1>
+  <p>
+    The Downtown Residents Association is your place to learn about local initiatives, meet your neighbours, hear interesting guest speakers and express your concerns and ideas for creating a safer, more liveable community.
+  </p>
+</div>
+
+<div>
+  <h1>Join us!</h1>
+  <p>
+    Memberships are just $5.00 per family for one year. REGULAR MEETINGS: 7pm 1st Wednesday of every second month, Holy Trinity Cathedral, Parish Hall, 514 Carnarvon Street 
+  </p>
+  <p>
+  <a href="/contact/">Sign up to receive our newsletters and notices</a> on our <a href="/contact/">Contact Page</a>
+  </p>
+</div>
 
 <div class="list-group">
+  <h1>News and Notices</h1>
 	{% for post in paginator.posts %} 
 	<div class="list-group-item">
 	<a href="{{ post.url }}">
@@ -48,6 +68,7 @@ comments: true
 </div>
 
 <!-- Pagination links -->
+<!--
 <div >
 {% if paginator.previous_page %}
 	<a href="{{ paginator.previous_page_path }}" >
@@ -66,3 +87,4 @@ comments: true
 {% endif %}
 </div>
 	  
+-->

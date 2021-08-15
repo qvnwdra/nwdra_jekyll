@@ -30,7 +30,7 @@ h3:before {
 }
 
 .container {
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
 
 .jumbotron {
@@ -54,7 +54,7 @@ h3:before {
 	width: 100%;
 	/* Set the fixed height of the footer here */
 	height: 8em;
-	background-color: black;
+	background-color: #6699ff;
 	bottom: 0;
 }
 
@@ -71,7 +71,7 @@ h3:before {
 }
 
 .navbar-default {
-	background-color: black;
+	background-color: #6699ff;
 	border-color: #12421f;
 	text-transform: uppercase;
 	font-size: 1.3em;
