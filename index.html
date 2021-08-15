@@ -3,6 +3,7 @@ layout: default
 title: New Westminster Downtown Residents Association
 description: Residents Association
 comments: true 
+image: top.jpg
 ---
 
 <!-- Pagination links -->
@@ -58,7 +59,7 @@ comments: true
 		{% else %}		
 		<img
 			alt="{{ post.title }}"
-			src="/assets/images/{{post.id}}/top.jpg" class="img-responsive">
+			src="/assets/images/posts/{{post.image}}" class="img-responsive">
 		{% endif %}
 		<p>{{ post.excerpt | strip_html}}</p>
 		<a href="{{ post.url }}">Read more...</a>
