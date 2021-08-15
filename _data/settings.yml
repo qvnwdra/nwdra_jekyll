@@ -1,33 +1,29 @@
 # Change 'comments' to true for Disqus comments
 disqus:
-  comments: true
-  disqus_shortname: 'apham'
+  comments: false
+  disqus_shortname: 'qvdm'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-91332049-1'
+google-ID: ''
 
 menu: 
-  - name: Featured Projects
+  - name: Projects
     submenu:
-      - name: MicroBam
-        link: /projects/microbam
-      - name: OurLegacy
-        link: /projects/ourlegacy
-  - name: Posts
+      - name: Strata Council Registry
+        link: /projects/strata.html
+      - name: Crime Prevention
+        link: /projects/crime.html
+  - name: News
     link: /
-  - name: Tags
-    link: /tags
   - name: About
     link: /about
-  - name: Follow me
+  - name: Follow us
     submenu:
-      - name: GitHub
-        icon: github
-        link: http://github.com/alainpham
-      - name: LinkedIn
-        icon: linkedin-square
-        link: http://www.linkedin.com/in/alainpham
       - name: Twitter
         icon: twitter
-        link: https://twitter.com/koint
+        link: https://twitter.com/nwdra
+      - name: Facebook
+        icon: facebook
+        link: https://facebook.com/nwdra
+        
     
