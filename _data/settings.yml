@@ -7,12 +7,6 @@ disqus:
 google-ID: ''
 
 menu: 
-  - name: Projects
-    submenu:
-      - name: Strata Council Registry
-        link: /projects/strata
-      - name: Crime Prevention
-        link: /projects/crime
   - name: News
     link: /
   - name: About
