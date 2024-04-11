@@ -7,49 +7,32 @@ image: top.jpg
 
 <h1>Send us a message</h1>
 
-<div id="mf_placeholder" 
-     data-formurl="//forms.quantumcondo.ca/embed.php?id=15551" 
-     data-formheight="900"  
-     data-formtitle="NWDRA Contact Form"  
-     data-paddingbottom="10">
-</div>
-<script>
-	(function(f,o,r,m){
-		r=f.createElement('script');r.async=1;r.src=o+'js/mf.js';
-		m=f.getElementById('mf_placeholder'); m.parentNode.insertBefore(r, m);
-	})(document,'//forms.quantumcondo.ca/');
-</script>
-
-
+ <div class="form-wrapper">
+    <form class="form-generic" name="contact" method="POST" data-netlify="true">
+      <input type="text" class="form-control" name="Name" placeholder="Name" required="" autofocus="" />
+      <input type="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
+      <textarea class="form-textarea" name="message">Message </textarea>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>   
+    </form>
+  </div>
 
 <h1>Subscribe to our email list</h1>
 
-<div id="mf_placeholder" 
-     data-formurl="//forms.quantumcondo.ca/embed.php?id=15848" 
-     data-formheight="635"  
-     data-formtitle="NWDRA Subscription Form"  
-     data-paddingbottom="10">
-</div>
-<script>
-	(function(f,o,r,m){
-		r=f.createElement('script');r.async=1;r.src=o+'js/mf.js';
-		m=f.getElementById('mf_placeholder'); m.parentNode.insertBefore(r, m);
-	})(document,'//forms.quantumcondo.ca/');
-</script>
+ <div class="form-wrapper">
+    <form class="form-generic" name="subscribe" method="POST" data-netlify="true">
+      <input type="text" class="form-control" name="Name" placeholder="Name" required="" autofocus="" />
+      <input type="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>   
+    </form>
+  </div>
+
 
 <h1 id="unsub">Remove your email address from our mailing list</h1>
+<div class="form-wrapper">
+    <form class="form-generic" name="unsubscribe" method="POST" data-netlify="true">
+      <input type="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>   
+    </form>
+  </div>
 
-
-<div id="mf_placeholder" 
-     data-formurl="//forms.quantumcondo.ca/embed.php?id=15950" 
-     data-formheight="651"  
-     data-formtitle="NWDRA Unsubscribe"  
-     data-paddingbottom="10">
-</div>
-<script>
-	(function(f,o,r,m){
-		r=f.createElement('script');r.async=1;r.src=o+'js/mf.js';
-		m=f.getElementById('mf_placeholder'); m.parentNode.insertBefore(r, m);
-	})(document,'//forms.quantumcondo.ca/');
-</script>
 

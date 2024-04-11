@@ -66,6 +66,7 @@ GEM
       libv8 (~> 3.16.14.15)
       ref
     unicode-display_width (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -75,9 +76,10 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   therubyracer
+  webrick (~> 1.8)
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.25

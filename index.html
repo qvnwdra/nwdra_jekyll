@@ -37,11 +37,14 @@ image: top.jpg
 <div>
   <h1>Join us!</h1>
   <p>
-    Memberships are on a donation basis and are just $5.00 per family for one year. REGULAR MEETINGS: 7pm 1st Wednesday of every second month, Holy Trinity Cathedral, Parish Hall, 514 Carnarvon Street 
+    Memberships are currently FREE for downtown residents.
   </p>
   <p>
     Visitors from other areas are welcome; we ask for a donation of $5.00 per person per visit. 
   </p>
+  <h1>Public Meetings</h1>
+  <p> We meet at 7pm 1st Wednesday of every month (when we have speakers), t
+  the Holy Trinity Cathedral, Parish Hall, 514 Carnarvon Street </p>
   <p>
   <a href="/contact/">Sign up to receive our newsletters and notices</a> on our <a href="/contact/">Contact Page</a>
   </p>
@@ -61,9 +64,11 @@ image: top.jpg
 -->
 		{% if post.noimage %}
 		{% else %}		
+<!--
 		<img
 			alt="{{ post.title }}"
 			src="/assets/images/posts/{{post.image}}" class="img-responsive">
+-->
 		{% endif %}
 		<p>{{ post.excerpt | strip_html}}</p>
 		<a href="{{ post.url }}">Read more...</a>
