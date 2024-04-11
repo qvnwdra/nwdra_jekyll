@@ -8,7 +8,8 @@ image: top.jpg
 <h1>Send us a message</h1>
 
  <div class="form-wrapper">
-    <form class="form-generic" name="contact" method="POST" data-netlify="true">
+    <form class="form-generic" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field" /></label> </p>
       <input type="text" class="form-control" name="Name" placeholder="Name" required="" autofocus="" />
       <input type="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
       <textarea class="form-textarea" name="message">Message </textarea>
@@ -19,7 +20,8 @@ image: top.jpg
 <h1>Subscribe to our email list</h1>
 
  <div class="form-wrapper">
-    <form class="form-generic" name="subscribe" method="POST" data-netlify="true">
+    <form class="form-generic" name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field" /></label> </p>
       <input type="text" class="form-control" name="Name" placeholder="Name" required="" autofocus="" />
       <input type="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
       <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>   
@@ -29,7 +31,8 @@ image: top.jpg
 
 <h1 id="unsub">Remove your email address from our mailing list</h1>
 <div class="form-wrapper">
-    <form class="form-generic" name="unsubscribe" method="POST" data-netlify="true">
+    <form class="form-generic" name="unsubscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field" /></label> </p>
       <input type="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
       <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>   
     </form>
