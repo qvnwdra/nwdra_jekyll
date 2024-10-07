@@ -7,6 +7,8 @@ disqus:
 google-ID: ''
 
 menu: 
+  - name: Home
+    link: /
   - name: News
     link: /
   - name: About
@@ -15,11 +17,11 @@ menu:
     link: /contact
   - name: Follow us
     submenu:
-      - name: Twitter
-        icon: twitter
-        link: https://twitter.com/nwdra
+      - name: Bluesky
+        icon: bsky
+        link: https://bsky.app/profile/nwdra.ca
       - name: Facebook
         icon: facebook
-        link: https://facebook.com/nwdra
+        link: https://www.facebook.com/nwdra.ca/
         
     
